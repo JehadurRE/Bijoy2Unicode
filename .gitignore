@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp.*
+
+# Build artifacts
+dist/
+.next/
+out/
+*.tsbuildinfo
+
+# Test artifacts
+coverage/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Test files (kept locally, not in git)
+testfiles/*-unicode.docx
+testfiles/output/
+
+# Tooling
+.eslintcache
+.cache/
