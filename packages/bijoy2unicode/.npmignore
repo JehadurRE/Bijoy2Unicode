@@ -1,0 +1,8 @@
+src
+test
+node_modules
+tsconfig.json
+tsup.config.ts
+.github
+*.log
+.DS_Store
