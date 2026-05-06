@@ -1,0 +1,82 @@
+{
+  "name": "bijoy2unicode",
+  "version": "1.0.0",
+  "description": "Convert legacy Bijoy / Sutonny MJ Bangla text and Word documents (.docx, .doc, .odt, .rtf, .html, .txt) to Unicode Bengali. Strict font-aware detection keeps English untouched.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./docx": {
+      "types": "./dist/docx.d.ts",
+      "import": "./dist/docx.js",
+      "require": "./dist/docx.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "node --test --import tsx test/*.test.ts",
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "bijoy",
+    "bijoy-to-unicode",
+    "sutonny",
+    "sutonny-mj",
+    "bangla",
+    "bengali",
+    "unicode",
+    "ascii-to-unicode",
+    "docx",
+    "doc",
+    "rtf",
+    "odt",
+    "converter",
+    "bangla-converter",
+    "bengali-converter",
+    "ansi-to-unicode",
+    "bijoy-keyboard",
+    "bangladesh"
+  ],
+  "author": {
+    "name": "Md. Jehad (Jehadur Rahman Emran)",
+    "email": "emran.jehadur@gmail.com",
+    "url": "https://github.com/JehadurRE"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/JehadurRE/bijoy2unicode#readme",
+  "bugs": {
+    "url": "https://github.com/JehadurRE/bijoy2unicode/issues",
+    "email": "emran.jehadur@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JehadurRE/bijoy2unicode.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
