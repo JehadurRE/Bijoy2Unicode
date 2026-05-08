@@ -143,16 +143,50 @@ export default function Home() {
         <h2 id="author-heading" className="text-base font-semibold">
           About the author
         </h2>
-        <p className="mt-2 text-sm text-[var(--muted-foreground)]">
-          Built by{" "}
-          <span className="font-medium text-[var(--foreground)]">
-            Md. Jehad (Jehadur Rahman Emran)
-          </span>
-          , Full Stack Developer &amp; System Architect at Cloud Connect AI.
-          Focus areas: Flutter and React Native mobile apps, FastAPI &amp;
-          PostgreSQL backends, Domain-Driven Design, and scalable cloud
-          architectures.
-        </p>
+        <div className="mt-2 text-sm text-[var(--muted-foreground)]">
+          <p className="text-[var(--foreground)]">
+            <span className="font-medium">Md. Jehad</span> (Jehadur Rahman Emran)
+            — Full Stack Developer &amp; System Architect at Cloud Connect AI.
+          </p>
+          <p className="mt-2">
+            Passionate about building scalable, cross-platform applications.
+            Expertise across Flutter &amp; React Native (mobile), FastAPI,
+            PostgreSQL, Redis (backend), Domain-Driven Design and microservices
+            (architecture), Docker and CI/CD (devops).
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <a
+              href="https://github.com/JehadurRE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--background)] px-3 py-1 text-xs font-medium hover:bg-[var(--muted)]"
+            >
+              <span aria-hidden>🐙</span> GitHub
+            </a>
+            <a
+              href="https://linkedin.com/in/jehadurre"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--background)] px-3 py-1 text-xs font-medium hover:bg-[var(--muted)]"
+            >
+              <span aria-hidden>💼</span> LinkedIn
+            </a>
+            <a
+              href="mailto:emran.jehadur@gmail.com"
+              className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--background)] px-3 py-1 text-xs font-medium hover:bg-[var(--muted)]"
+            >
+              <span aria-hidden>✉️</span> Email
+            </a>
+            <a
+              href="https://www.npmjs.com/package/bijoy2unicode"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--background)] px-3 py-1 text-xs font-medium hover:bg-[var(--muted)]"
+            >
+              <span aria-hidden>📦</span> npm package
+            </a>
+          </div>
+        </div>
       </section>
 
       <footer className="mt-4 border-t border-[var(--border)] pt-6 text-xs text-[var(--muted-foreground)]">

@@ -102,6 +102,12 @@ const jsonLd = {
       "@type": "Organization",
       name: "Cloud Connect AI",
     },
+    url: "https://github.com/JehadurRE",
+    sameAs: [
+      "https://github.com/JehadurRE",
+      "https://linkedin.com/in/jehadurre",
+    ],
+    email: "emran.jehadur@gmail.com",
   },
   featureList: [
     "Convert Bijoy ASCII (Sutonny MJ) to Bangla Unicode",
