@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "favicons": "node scripts/generate-favicons.mjs"
   },
   "dependencies": {
     "cfb": "^1.2.2",
