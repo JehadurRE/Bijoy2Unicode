@@ -2,6 +2,8 @@
 
 Free, private, browser-based Bijoy → Unicode converter for Bangla `.docx`, `.doc`, `.odt`, `.rtf`, `.html`, and `.txt` files. The whole conversion runs in the user's browser — no upload, no server, no signup.
 
+> 🌐 **Live:** <https://bijoy2unicode.jehadurre.me> · mirror: <https://bijoy2unicodex.vercel.app>
+
 Built with **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS v4**, and **JSZip**.
 
 > The conversion engine is shipped as a standalone npm package, [`bijoy2unicode`](../packages/bijoy2unicode). This app is the live demo / production deployment.

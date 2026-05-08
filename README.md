@@ -2,6 +2,12 @@
 
 Convert legacy Bijoy / Sutonny MJ Bangla text and Word documents to Unicode Bengali.
 
+[![npm version](https://img.shields.io/npm/v/bijoy2unicode.svg?logo=npm&label=bijoy2unicode)](https://www.npmjs.com/package/bijoy2unicode)
+[![Live](https://img.shields.io/badge/Live-bijoy2unicode.jehadurre.me-22c55e?logo=vercel&logoColor=white)](https://bijoy2unicode.jehadurre.me)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](packages/bijoy2unicode/LICENSE)
+
+> 🌐 **Try it now:** <https://bijoy2unicode.jehadurre.me> · mirror: <https://bijoy2unicodex.vercel.app>
+
 This monorepo contains:
 
 | Folder | Description |

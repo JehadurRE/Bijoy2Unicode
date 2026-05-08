@@ -13,6 +13,15 @@ Convert legacy **Bijoy / Sutonny MJ** Bangla text and Word documents to **Unicod
 - Handles inherited fonts via paragraph styles, character styles, and `docDefaults` — same way Word resolves them.
 - Battle-tested on real-world Bangladesh government bio-data forms with thousands of mixed runs.
 
+## Live demo
+
+Try it without installing anything:
+
+- 🌐 **<https://bijoy2unicode.jehadurre.me>** (primary)
+- 🌐 **<https://bijoy2unicodex.vercel.app>** (Vercel mirror)
+
+Drag-and-drop a `.docx`, `.doc`, `.odt`, `.rtf`, `.html`, or `.txt` file. Conversion runs entirely in your browser; nothing is uploaded.
+
 ## Install
 
 ```bash
@@ -139,9 +148,13 @@ encodings other libraries miss:
 - **`.html` conversion** requires `DOMParser` (browser environment). For server-side HTML, run the string converter on extracted text.
 - Pure-ASCII Bijoy text (`bvg wcZvi bvg` with no high-byte chars) is genuinely ambiguous in `.txt`/`.rtf`. Set `force: true` to convert anyway.
 
-## Live demo
+## Repo & contributions
 
-A full-featured demo site is at [github.com/JehadurRE/bijoy2unicode](https://github.com/JehadurRE/bijoy2unicode) — drag-and-drop conversion, multi-key CloudConvert integration for `.doc`, leftover-character reporting via email.
+Source, issues, and the demo app live at
+[github.com/JehadurRE/Bijoy2Unicode](https://github.com/JehadurRE/Bijoy2Unicode).
+PRs welcome — especially samples of Bijoy `.docx` files that don't convert
+cleanly. The leftover-character report flow in the demo app makes it easy
+to send those reports.
 
 ## Author
 
