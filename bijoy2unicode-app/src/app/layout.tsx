@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://bijoy2unicode.app";
+const SITE_URL = "https://bijoy2unicode.jehadurre.me";
 const SITE_NAME = "Bijoy to Unicode Converter";
 const DESCRIPTION =
   "Free, private, browser-based Bijoy to Unicode converter for .docx, .doc, .odt, .rtf, .html, and .txt files. Convert Sutonny MJ Bangla text to Unicode in one click. Files never leave your device.";
