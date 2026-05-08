@@ -1,6 +1,6 @@
 {
   "name": "bijoy2unicode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert legacy Bijoy / Sutonny MJ Bangla text and Word documents (.docx, .doc, .odt, .rtf, .html, .txt) to Unicode Bengali. Strict font-aware detection keeps English untouched.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -57,15 +57,26 @@
     "email": "emran.jehadur@gmail.com",
     "url": "https://github.com/JehadurRE"
   },
+  "contributors": [
+    {
+      "name": "Md. Jehad (Jehadur Rahman Emran)",
+      "email": "emran.jehadur@gmail.com",
+      "url": "https://linkedin.com/in/jehadurre"
+    }
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/JehadurRE/bijoy2unicode#readme",
+  "homepage": "https://github.com/JehadurRE/Bijoy2Unicode#readme",
   "bugs": {
-    "url": "https://github.com/JehadurRE/bijoy2unicode/issues",
+    "url": "https://github.com/JehadurRE/Bijoy2Unicode/issues",
     "email": "emran.jehadur@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JehadurRE/bijoy2unicode.git"
+    "url": "git+https://github.com/JehadurRE/Bijoy2Unicode.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/JehadurRE"
   },
   "engines": {
     "node": ">=18"
