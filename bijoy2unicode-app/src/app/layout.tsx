@@ -49,12 +49,21 @@ export const metadata: Metadata = {
     title: `${SITE_NAME} – Convert Bijoy .docx to Unicode Online`,
     description: DESCRIPTION,
     locale: "en_US",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 240,
+        height: 64,
+        alt: "bijoy2unicode logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} – Convert Bijoy .docx to Unicode Online`,
     description: DESCRIPTION,
     creator: "@JehadurRE",
+    images: ["/logo.svg"],
   },
   robots: {
     index: true,
@@ -68,7 +77,12 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/logo-mark.svg", type: "image/svg+xml" },
+    ],
+    apple: "/logo-mark.svg",
+    shortcut: "/favicon.ico",
   },
 };
 
@@ -86,6 +100,8 @@ const jsonLd = {
   "@type": "SoftwareApplication",
   name: SITE_NAME,
   url: SITE_URL,
+  image: `${SITE_URL}/logo.svg`,
+  logo: `${SITE_URL}/logo-mark.svg`,
   applicationCategory: "UtilityApplication",
   operatingSystem: "Web",
   offers: {
