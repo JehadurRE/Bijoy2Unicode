@@ -39,7 +39,19 @@ Open <http://localhost:3000>.
 
 ## Author
 
-**Md. Jehad (Jehadur Rahman Emran)** — Full Stack Developer & System Architect, Cloud Connect AI.
+<div align="center">
+
+### **Md. Jehad** (Jehadur Rahman Emran)
+
+**Full Stack Developer & System Architect** · Cloud Connect AI
+
+[![GitHub](https://img.shields.io/badge/GitHub-JehadurRE-181717?logo=github)](https://github.com/JehadurRE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/jehadurre)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail)](mailto:emran.jehadur@gmail.com)
+
+</div>
+
+Md. Jehad is a passionate Full Stack Developer and System Architect specializing in building scalable, cross-platform applications across mobile (Flutter, React Native), web, and backend (FastAPI, PostgreSQL, Redis, Docker) — with a strong focus on Domain-Driven Design, clean architecture, and production-ready systems.
 
 ## License
 

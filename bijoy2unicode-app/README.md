@@ -83,7 +83,43 @@ chain, bigram-based detection, ...).
 
 ## Author
 
-**Md. Jehad (Jehadur Rahman Emran)** — Full Stack Developer & System Architect at Cloud Connect AI. Working across Flutter, React Native, FastAPI/Python, PostgreSQL, and cloud-native architectures.
+<div align="center">
 
-- GitHub: [@JehadurRE](https://github.com/JehadurRE)
-- Email: emran.jehadur@gmail.com
+### **Md. Jehad** (Jehadur Rahman Emran)
+
+**Full Stack Developer & System Architect** · Cloud Connect AI
+
+[![GitHub](https://img.shields.io/badge/GitHub-JehadurRE-181717?logo=github)](https://github.com/JehadurRE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/jehadurre)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail)](mailto:emran.jehadur@gmail.com)
+
+</div>
+
+### Professional Profile
+
+**Md. Jehad** is a passionate Full Stack Developer and System Architect specializing in building scalable, cross-platform applications. With expertise spanning mobile, web, and backend technologies, he brings a comprehensive approach to software development.
+
+#### Core Competencies
+
+**Mobile Development**
+- 🎯 Flutter & Dart — cross-platform mobile applications
+- 📱 React Native & Expo — native mobile experiences
+- 🎨 Material Design 3 & Adaptive UI/UX
+
+**Backend Engineering**
+- ⚡ FastAPI & Python — high-performance REST APIs
+- 🗄️ PostgreSQL & Database Design — normalized schemas & optimization
+- 🔄 Redis & Caching Strategies — performance optimization
+- 🔐 JWT Authentication & Security — OWASP compliance
+
+**System Architecture**
+- 🏗️ Domain-Driven Design (DDD) — clean architecture patterns
+- 📊 Database Schema Design — ERD modeling & optimization
+- 🔗 API Integration — third-party services & payment gateways
+- 📈 Scalable Systems — microservices & distributed architecture
+
+**DevOps & Tools**
+- 🐳 Docker & Containerization
+- 🔄 CI/CD Pipelines — automated deployment
+- 📊 Monitoring & Analytics — Firebase, Crashlytics
+- 🔧 Git & Version Control
