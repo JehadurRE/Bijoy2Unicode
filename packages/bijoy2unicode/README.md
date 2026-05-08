@@ -1,5 +1,9 @@
 # bijoy2unicode
 
+<p align="center">
+  <img src="https://bijoy2unicode.jehadurre.me/logo.svg" alt="bijoy2unicode" width="320" />
+</p>
+
 [![npm version](https://img.shields.io/npm/v/bijoy2unicode.svg)](https://www.npmjs.com/package/bijoy2unicode)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Types: TypeScript](https://img.shields.io/badge/types-TypeScript-blue)](#)

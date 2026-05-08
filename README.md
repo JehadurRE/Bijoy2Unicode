@@ -1,5 +1,9 @@
 # bijoy2unicode
 
+<p align="center">
+  <img src="https://bijoy2unicode.jehadurre.me/logo.svg" alt="bijoy2unicode" width="320" />
+</p>
+
 Convert legacy Bijoy / Sutonny MJ Bangla text and Word documents to Unicode Bengali.
 
 [![npm version](https://img.shields.io/npm/v/bijoy2unicode.svg?logo=npm&label=bijoy2unicode)](https://www.npmjs.com/package/bijoy2unicode)
