@@ -1,0 +1,29 @@
+{
+  "name": "Bijoy to Unicode Converter",
+  "short_name": "bijoy2unicode",
+  "description": "Free, private, browser-based Bijoy to Unicode converter for Bangla .docx, .doc, .odt, .rtf, .html, and .txt files.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [
+    {
+      "src": "/logo-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
