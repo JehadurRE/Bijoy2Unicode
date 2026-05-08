@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Converter from "@/components/Converter";
 
 export const metadata: Metadata = {
@@ -61,6 +62,28 @@ export default function Home() {
       />
 
       <header className="flex flex-col gap-4">
+        <a
+          href="/"
+          aria-label="bijoy2unicode home"
+          className="inline-flex items-center gap-3"
+        >
+          <Image
+            src="/logo-mark.svg"
+            alt=""
+            width={48}
+            height={48}
+            priority
+            className="rounded-xl"
+          />
+          <span className="flex flex-col leading-tight">
+            <span className="text-lg font-semibold tracking-tight">
+              bijoy<span className="text-[var(--accent)]">2</span>unicode
+            </span>
+            <span className="text-xs text-[var(--muted-foreground)]">
+              Bijoy → Unicode Bangla converter
+            </span>
+          </span>
+        </a>
         <span className="inline-flex w-fit items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--muted)] px-3 py-1 text-xs font-medium text-[var(--muted-foreground)]">
           <span className="size-1.5 rounded-full bg-[var(--accent)]" />
           100% in-browser · no upload
