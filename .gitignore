@@ -29,8 +29,9 @@ yarn-debug.log*
 yarn-error.log*
 *.log
 
-# Test files (kept locally, not in git)
-testfiles/*-unicode.docx
+# Test files (kept locally, NOT in git — contains real PII)
+testfiles/
+testfiles/*.docx
 testfiles/output/
 
 # Tooling
