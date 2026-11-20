@@ -118,6 +118,13 @@ Bug reports and PR with messy real-world Bijoy `.docx` samples help the most. Th
 
 The TypeScript implementation builds on, and corrects, earlier open-source Bijoy converters that served as inspiration. See the package README for that note.
 
+## Snippets & recipes
+
+- [Bijoy → Unicode in 5 lines (TypeScript)](https://gist.github.com/JehadurRE/60c4fc89abe9e50e9746d12be9417832)
+- [Detect Bijoy vs Unicode Bengali before you convert](https://gist.github.com/JehadurRE/1492d905a0692671d2278e515987a05c)
+- [Font-aware Bijoy .docx conversion in the browser](https://gist.github.com/JehadurRE/c2bd2750c5115e2d2aef106f2bc20e16)
+- [Find leftover Bijoy bytes after a conversion](https://gist.github.com/JehadurRE/b41d4c4cf9d67de226df08c26c916b4a)
+
 ## License
 
 [MIT](packages/bijoy2unicode/LICENSE)
