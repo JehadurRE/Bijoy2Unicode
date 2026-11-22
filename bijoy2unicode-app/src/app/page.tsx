@@ -321,6 +321,27 @@ export default function Home() {
           </a>
           .
         </p>
+        <a
+          href="https://launchbuff.com/products/bijoy-to-unicode-converter-u80ex7"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Featured on LaunchBuff"
+          className="mt-4 inline-flex"
+        >
+          <picture>
+            <source
+              media="(prefers-color-scheme: dark)"
+              srcSet="https://launchbuff.com/badge-featured-light.svg"
+            />
+            <img
+              src="https://launchbuff.com/badge-featured-dark.svg"
+              alt="Featured on LaunchBuff"
+              width={256}
+              height={80}
+              className="h-12 w-auto"
+            />
+          </picture>
+        </a>
       </footer>
     </main>
   );
